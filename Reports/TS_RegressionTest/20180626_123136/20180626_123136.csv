@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 67.0.3396.87,,2018-06-26 12:31:39,2018-06-26 12:32:03,24.205s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 67.0.3396.87,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-06-26 12:31:39,2018-06-26 12:31:47,7.413s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:40,2018-06-26 12:31:40,0.052s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:40,2018-06-26 12:31:40,0.007s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-26 12:31:40,2018-06-26 12:31:45,4.895s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-26 12:31:45,2018-06-26 12:31:46,0.677s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-26 12:31:46,2018-06-26 12:31:46,0.337s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-26 12:31:46,2018-06-26 12:31:46,0.259s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:46,2018-06-26 12:31:46,0.003s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-26 12:31:46,2018-06-26 12:31:47,0.443s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:47,0.004s,PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:47,0.099s,PASSED
+closeBrowser,Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:47,0.113s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 67.0.3396.87,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-06-26 12:31:47,2018-06-26 12:32:03,16.181s,FAILED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:47,0.003s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:47,0.002s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-26 12:31:47,2018-06-26 12:31:49,2.373s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-06-26 12:31:49,2018-06-26 12:32:03,13.562s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-26 12:32:03,2018-06-26 12:32:03,0.003s,PASSED
+Statement - If (true),Chrome 67.0.3396.87,,2018-06-26 12:32:03,2018-06-26 12:32:03,0.040s,FAILED
